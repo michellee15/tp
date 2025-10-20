@@ -165,9 +165,6 @@ public class MainWindow extends UiPart<Stage> {
         logic.setGuiSettings(guiSettings);
         helpWindow.hide();
         primaryStage.hide();
-
-        // To close the application
-        Platform.exit();
     }
 
     public TenantListPanel getPersonListPanel() {
